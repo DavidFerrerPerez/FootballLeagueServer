@@ -119,6 +119,9 @@ namespace FootballLeagueServer.Controllers
                     throw;
                 }
             }
+            if (PosExists(club.Position)){
+                return Conflict();
+            }
             if (club.Position > 20 || club.Position < 1 || club.Position%1 != 0)
             {
                 return Conflict();
@@ -149,6 +152,11 @@ namespace FootballLeagueServer.Controllers
         private bool ClubExists(string id)
         {
             return _context.Clubs.Any(e => e.Name == id);
+        }
+
+        private bool PosExists(int pos)
+        {
+            return _context.Clubs.Any(e => e.Position == pos);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\source\\repos\\FootballLeagueServer\\FootballLeagueServer.csproj": {}
+    "C:\\Users\\david\\Source\\Repos\\DavidFerrerPerez\\FootballLeagueServer\\FootballLeagueServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\source\\repos\\FootballLeagueServer\\FootballLeagueServer.csproj": {
+    "C:\\Users\\david\\Source\\Repos\\DavidFerrerPerez\\FootballLeagueServer\\FootballLeagueServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\source\\repos\\FootballLeagueServer\\FootballLeagueServer.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Source\\Repos\\DavidFerrerPerez\\FootballLeagueServer\\FootballLeagueServer.csproj",
         "projectName": "FootballLeagueServer",
-        "projectPath": "C:\\Users\\david\\source\\repos\\FootballLeagueServer\\FootballLeagueServer.csproj",
+        "projectPath": "C:\\Users\\david\\Source\\Repos\\DavidFerrerPerez\\FootballLeagueServer\\FootballLeagueServer.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\source\\repos\\FootballLeagueServer\\obj\\",
+        "outputPath": "C:\\Users\\david\\Source\\Repos\\DavidFerrerPerez\\FootballLeagueServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
