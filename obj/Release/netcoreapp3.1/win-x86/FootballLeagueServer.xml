@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FootballLeagueServer</name>
+    </assembly>
+    <members>
+        <member name="M:FootballLeagueServer.Controllers.ClubsController.GetClubs">
+            <summary>
+            Retrieves all clubs.
+            </summary>
+            <param name="id"></param> 
+        </member>
+        <member name="M:FootballLeagueServer.Controllers.ClubsController.GetClub(System.String)">
+            <summary>
+            Retrieves a specific club.
+            </summary>
+            <param name="id"></param> 
+        </member>
+        <member name="M:FootballLeagueServer.Controllers.ClubsController.PutClub(System.String,FootballLeagueServer.Models.Club)">
+            <summary>
+            Creates a new club.
+            </summary>
+            <param name="id"></param> 
+        </member>
+        <member name="M:FootballLeagueServer.Controllers.ClubsController.PostClub(FootballLeagueServer.Models.Club)">
+            <summary>
+            Adds a new club.
+            </summary> 
+            <remarks>
+            Sample request:
+                
+                POST /Club
+                {
+                    Name = "Valencia",
+                    Position = 1,
+                    GoalDifference = +100,
+                    Points = 444
+                    }
+            
+            
+            </remarks>
+        </member>
+        <member name="M:FootballLeagueServer.Controllers.ClubsController.DeleteClub(System.String)">
+            <summary>
+            Deletes a specific club.
+            </summary>
+            <param name="id"></param> 
+        </member>
+    </members>
+</doc>
